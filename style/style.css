@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    line-height: 1;
+    list-style: none;
+}
+
+body{
+    background:url('../kepek/back.webp') no-repeat fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,.5);
+}
+
+
+.header{
+    background: url('../kepek/header_mobil.jpg')  no-repeat;
+    height: 400px;
+    background-size: cover;
+}
+h1{
+    color:orange;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    float:left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,.5);
+}
+ul::after{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 0;
+}
+a:hover{
+    color:whitesmoke
+}
+p{
+    color:white;
+    font-size: .7rem;
+    line-height:1.4;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-weight: 300;
+
+}
+img{
+    width: 100%;
+}
+.content{
+    padding: 5px;
+}
+@media only screen and (min-width: 401px) {
+    .header{
+        background: url('../kepek/header.webp')  no-repeat;
+        
+    }
+    .container{
+        max-width: 700px;
+    }
+  }
+@media only screen and (min-width: 801px) {
+   
+  }
